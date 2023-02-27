@@ -1,0 +1,27 @@
+<h1 class="text-center"> {{title}} </h1>
+<div class = "container">
+
+
+<nav >
+        <ul>
+        <li class = "nav-item">
+            <a routerLink="create-review" routerLinkActive="active" class="nav-link" >Add Review</a>
+        </li>
+        <li>
+            <a routerLink="review-list" >Review List</a>
+        </li>
+        <li>
+            <a routerLink="review-update" >Review update</a>
+        </li>
+    </ul>
+</nav>
+
+    <router-outlet></router-outlet>
+
+
+
+<footer class = "footer">
+    <div class = "container">
+        <span>All Rights Reserved </span>
+    </div>
+</footer>
